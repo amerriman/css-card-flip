@@ -33,6 +33,7 @@ body {
 	-webkit-backface-visibility: hidden;
 	border-radius: 10px;
 	overflow: hidden;
+	position: absolute;
 }
 
 #portfolio .portfolio-item .secondary {
@@ -43,4 +44,13 @@ body {
 
 #portfolio .portfolio-item .secondary h2 {
 	margin-top: 0px;
+}
+
+.secondary{
+	transition: opacity 1s ease;
+	opacity: 0;
+}
+
+.secondary:hover {
+	opacity: 1;
 }
