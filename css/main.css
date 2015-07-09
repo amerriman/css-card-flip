@@ -2,7 +2,7 @@
 	Starter page styles
 */
 
-body {
+/*body {
 	margin: 0;
 	padding: 40px;
 	background: #EFEFEF;
@@ -31,6 +31,7 @@ body {
 	background: #CCC;
 	-webkit-transform-style: preserve-3d;
 	-webkit-backface-visibility: hidden;
+	-webkit-transition: transform 1s;
 	border-radius: 10px;
 	overflow: hidden;
 	position: absolute;
@@ -40,17 +41,28 @@ body {
 	padding: 20px;
 	width: 160px;
 	height: 160px;
+	position:
 }
 
 #portfolio .portfolio-item .secondary h2 {
 	margin-top: 0px;
 }
 
-.secondary{
-	transition: opacity 1s ease;
-	opacity: 0;
+.portfolio-item:hover .primary {
+	-webkit-transform: rotateY(-180deg);
 }
 
-.secondary:hover {
+.portfolio-item:hover .secondary{
+	-webkit-transform: rotateY(0deg);
+}*/
+
+
+
+/*.secondary{
+	transition: opacity 1s ease;
+	opacity: 0;
+}*/
+
+/*.secondary:hover {
 	opacity: 1;
-}
+}*/
